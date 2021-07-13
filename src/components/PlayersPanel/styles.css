@@ -1,0 +1,10 @@
+.players-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.players-panel div {
+  margin: 5px;
+}

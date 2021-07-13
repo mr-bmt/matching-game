@@ -1,4 +1,5 @@
 body {
   --background-app: var(--color-pomb-and-power);
   background-color: var(--background-app);
+  font-family: 'Press Start 2P';
 }
