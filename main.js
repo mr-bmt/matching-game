@@ -1,9 +1,13 @@
 import "./src/styles/settings/colors.css";
 import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
-import GameCard from "./src/components/GameCard";
+import "./src/styles/settings/fonts.css";
+import GameBoard from "./src/components/GameBoard";
+import PlayersPanel from "./src/components/PlayersPanel";
 
 const $root = document.querySelector("#root");
-const $htmlGameCard = GameCard();
+const $htmlPlayersPanel = PlayersPanel("Bruno", "World");
+const $htmlGameBoard = GameBoard();
 
-$root.insertAdjacentHTML("beforeend", $htmlGameCard);
+$root.insertAdjacentHTML("beforeend", $htmlPlayersPanel);
+$root.insertAdjacentHTML("beforeend", $htmlGameBoard);
