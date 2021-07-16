@@ -1,7 +1,6 @@
 .game-card-box {
   width: 130px;
   height: 160px;
-  margin: 10px;
   flex-shrink: 1;
 }
 

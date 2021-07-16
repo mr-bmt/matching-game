@@ -2,7 +2,7 @@ import "./src/styles/settings/colors.css";
 import "./src/styles/generic/reset.css";
 import "./src/styles/elements/base.css";
 import "./src/styles/settings/fonts.css";
-import GameBoard from "./src/components/GameBoard";
+import GameBoard from "./src/objects/GameBoard";
 import PlayersPanel from "./src/components/PlayersPanel";
 
 const $root = document.querySelector("#root");

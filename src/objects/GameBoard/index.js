@@ -1,5 +1,5 @@
 import "./styles.css";
-import GameCard from "../GameCard";
+import GameCard from "../../components/GameCard";
 
 function GameBoard(amountOfCards = 6) {
   const cardList = new Array(amountOfCards).fill(GameCard());
