@@ -1,15 +1,6 @@
-.game-board {
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
-  max-width: 300px;
-  flex: 1 1 auto;
-}
-
 .game-board ul {
-  display: flex;;
-  justify-content: space-between;
-  align-content: space-between;
+  display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  flex: 1 1 auto;
 }
