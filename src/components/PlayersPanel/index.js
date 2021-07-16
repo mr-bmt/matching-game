@@ -8,11 +8,11 @@ function PlayersPanel(playerOne, playerTwo) {
   const $htmlPlayerTwo = PlayerName(playerTwo);
 
   return /*html*/ `
-    <div class="players-panel">
+    <section class="players-panel">
       ${$htmlPlayerOne}
       ${$htmlVersus}
       ${$htmlPlayerTwo}
-    </div>
+    </section>
   `;
 }
 

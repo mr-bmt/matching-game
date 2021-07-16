@@ -1,5 +1,6 @@
 .game-board ul {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   flex: 1 1 auto;

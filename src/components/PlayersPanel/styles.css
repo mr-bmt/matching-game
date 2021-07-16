@@ -1,10 +1,6 @@
 .players-panel {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  flex-wrap: nowrap;
-}
-
-.players-panel div {
-  margin: 5px;
+  margin: 20px;
 }
